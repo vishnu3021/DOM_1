@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img class="photo">
+    <img class="photo">
+    <img class="photo">
+    <img class="photo">
+    
+    <script>
+        let div=document.createElement("div");
+        div.style.width="97vw";
+        div.style.height="100vh"
+        // div.style.background="orange";
+        // div.style.border="3px solid red"
+        div.style.position.fixed;
+        div.style.marginTop="-60vh"
+        div.innerHTML="<pre><h1>                                        <b>HAPPY VINAYAKA CHAVITHI</b></h1></pre>" 
+        div.style.fontSize = "100%"
+        div.style.color="#0066ff"
+        
+        document.body.appendChild(div)
+        let pic=document.getElementsByTagName("img")
+        pic[0].setAttribute("src", "./ganesh_2.jpg")
+        pic[0].style.height="45vh"
+        pic[0].style.width="47vw"
+        // pic[0].style.position.fixed;
+        // pic[0].style.marginTop="100vh"
+
+
+
+        pic[1].setAttribute("src", "./ganesh.jpg")
+        pic[1].style.height="45vh"
+        pic[1].style.width="50vw"
+        // pic[1].style.position.fixed;
+        // pic[1].style.marginTop="10px"
+
+
+        pic[2].setAttribute("src", "./ganesh_3.jpg")
+         pic[2].style.height="45vh"
+        pic[2].style.width="47vw"
+        // pic[2].style.position.fixed;
+        // pic[2].style.marginTop="10px"
+
+        pic[3].setAttribute("src","./ganesh_4.avif")
+        pic[3].style.height="45vh"
+        pic[3].style.width="50vw"
+
+        // console.log(div)
+        // div.style.height="100px"
+        // div.style.width="300px"
+        // div.style.border="2px solid red"
+        // div.innerHTML(div)
+        // im = document.createElement(img)
+        // im[0].SetAttribute("src" )
+
+        
+
+
+
+
+
+    </script>
+</body>
+</html>
